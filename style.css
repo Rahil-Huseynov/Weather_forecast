@@ -1,0 +1,141 @@
+  .container {
+    margin: 0px auto;
+    border-radius: 5px;
+  }
+
+  .container1 {
+    margin: 0px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  #user-info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+  }
+
+  .github_button {
+    display: flex;
+    justify-content: center;
+  }
+
+  #hourlyWeather {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 5rem; */
+  }
+
+  #username {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+    margin-bottom: 1rem;
+    opacity: 0.3;
+  }
+
+  #username:focus {
+    opacity: 1;
+    outline: none;
+  }
+
+  #cityInput:focus {
+    outline: none;
+  }
+
+  .input_github {
+    display: flex;
+    gap: 1rem;
+    padding-left: 15rem;
+  }
+
+  .current-weather {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #cityInput {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+    height: 25px;
+  }
+
+  #hourlyWeather_h2 {
+    padding-left: 10rem;
+    display: none;
+  }
+
+  .location_date {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  #section {
+    display: none;
+  }
+
+  .container_now_weather {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .weather_now_c_element {
+    color: red;
+    font-size: 4rem;
+  }
+
+  .weather_more {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .weather_des{
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .location_date{
+    font-size: 2rem;
+  }
+
+  .weather_forecast{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: blue;
+  }
+
+  .github_account{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color:blue;
+  }
+
+
+  .search_icon{
+    width: 20px;
+  }
+
+.weather_search_container{
+  display: flex;
+  align-items: center;
+}
+  
+
+.hourly-weather{
+  padding-top: 5rem;
+}
